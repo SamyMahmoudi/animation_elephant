@@ -1,0 +1,34 @@
+.section-landscape {
+    background-image: url(../images/landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+.section-assos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    padding: 120px 0px;
+}
+
+.section-assos h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 60px;
+}
+
+.section-assos article {
+    width: calc((100% - 200px) / 3);
+    height: 200px;
+    text-align: center;
+}
+
+.section-assos article img {
+    height: 100%;
+}
