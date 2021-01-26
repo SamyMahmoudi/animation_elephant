@@ -25,12 +25,3 @@ header div h2 {
     color: white;
     padding-bottom: 5%;
 }
-
-header div a {
-    font-size: 24px;
-    color: white;
-    background-color: rgb(132, 161, 1);
-    text-decoration: none;
-    padding: 12px 10%;
-    border-radius: 20px;
-}

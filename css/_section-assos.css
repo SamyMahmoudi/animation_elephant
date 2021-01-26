@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 50vh;
+    height: 60vh;
 }
 
 .section-assos {
@@ -25,10 +25,24 @@
 
 .section-assos article {
     width: calc((100% - 200px) / 3);
-    height: 200px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
 .section-assos article img {
-    height: 100%;
+    height: 200px;
+}
+
+@media (max-width:1024px) 
+{
+    .section-assos {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px 0px;
+    }
+
+    .section-assos article {
+        padding-bottom: 50px;
+        width: 100%;
+    }
 }
