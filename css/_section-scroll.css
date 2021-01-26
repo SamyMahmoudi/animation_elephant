@@ -12,7 +12,9 @@
     width: 100%;
     padding: 80px 0px 80px;
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .section-scroll article {
@@ -40,6 +42,8 @@
 .section-scroll section p {
     font-size: 28px;
     padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .section-scroll section a {
@@ -50,6 +54,8 @@
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 @media (max-width:1024px)
@@ -67,6 +73,13 @@
         margin: 0 auto;
         padding: 20px 0px 80px;
     }
+}
+
+@media (max-width:1024px)
+{
+    /* .section-scroll {
+        padding-top: 10vh;
+    } */
 }
 
 @media (max-width:600px)

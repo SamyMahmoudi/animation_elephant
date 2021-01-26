@@ -1,6 +1,10 @@
 header {
     height: 100vh;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(231, 231, 231) 40%, rgb(255, 255, 255)100%);
 }
 
 header img {
@@ -11,17 +15,42 @@ header img {
 
 header div {
     position: absolute;
-    top: 40%;
-    left: 5%;
+    text-align: center;
+    top: 50%;
 }
 
 header div h1 {
     font-size: 72px;
-    color: white;
+    color: rgb(187, 106, 0);
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
 }
 
 header div h2 {
-    font-size: 40px;
-    color: white;
-    padding-bottom: 5%;
+    font-size: 48px;
+    color: rgb(230, 230, 230);
+    text-shadow: -1px 0 rgb(187, 106, 0), 0 1px rgb(187, 106, 0), 1px 0 rgb(187, 106, 0), 0 -1px rgb(187, 106, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:1024px)
+{
+    header {
+        height: 90vh;
+    }
+
+    header div h1 {
+        font-size: 48px;
+    }
+
+    header div h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width:600px)
+{
+    header div h2 {
+        padding: 0% 10%;
+    }
 }

@@ -1,5 +1,5 @@
 .section-landscape {
-    background-image: url(../images/landscape.jpg);
+    background-image: url(../images/bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,7 +19,8 @@
 .section-assos h2 {
     width: 100%;
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 60px;
 }
 
