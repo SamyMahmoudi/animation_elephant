@@ -4,7 +4,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgb(231, 231, 231) 40%, rgb(255, 255, 255)100%);
+    background-color: white;
 }
 
 header img {
@@ -20,14 +20,14 @@ header div {
 }
 
 header div h1 {
-    font-size: 72px;
+    font-size: 88px;
     color: rgb(187, 106, 0);
     text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
 }
 
 header div h2 {
-    font-size: 48px;
+    font-size: 64px;
     color: rgb(230, 230, 230);
     text-shadow: -1px 0 rgb(187, 106, 0), 0 1px rgb(187, 106, 0), 1px 0 rgb(187, 106, 0), 0 -1px rgb(187, 106, 0);
     font-family: 'Roboto', sans-serif;
